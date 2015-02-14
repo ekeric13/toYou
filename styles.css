@@ -1,0 +1,25 @@
+.red{
+  color: red;
+  margin-left: 20px
+}
+
+.green{
+  color: #009933;
+}
+
+.black{
+  color: #FF0066;
+}
+
+.pink {
+  color: #FF33CC;
+}
+
+body {
+  font-size: 23px
+}
+
+.fa-heart{
+  /*padding-left: 1px;*/
+  padding-right: 1px;
+}
