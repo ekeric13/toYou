@@ -1,6 +1,6 @@
 .red{
   color: red;
-  margin-left: 20px
+  margin-left: 20px;
 }
 
 .green{
@@ -14,12 +14,53 @@
 .pink {
   color: #FF33CC;
 }
+#main {
+   position: absolute;
+   top: 20px;
+   left: 20px;
+}
+/*#main:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("roses.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 1000px;
+    height: 1000px;
+    opacity : 0.2;
+    z-index: -1;
+}*/
+/*#main {
+  font-size: 23px;
+  background: url("roses.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: -1;
 
-body {
-  font-size: 23px
+}*/
+div {
+  opacity: 1.0
+  z-index: 2;
+  font-size: 23px;
+}
+
+
+img {
+  opacity: 0.4;
+  z-index: -1;
+  width: 1300px;
+  height: 800px;
 }
 
 .fa-heart{
   /*padding-left: 1px;*/
   padding-right: 1px;
+  opacity: 1;
 }
